@@ -1,0 +1,19 @@
+.colorBtn {
+  color: white;
+  background: rgb(82, 82, 82);
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: all 0.5s;
+}
+.colorBtn:hover {
+  background: #3d3d3d;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
